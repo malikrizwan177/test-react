@@ -1,12 +1,17 @@
 import { products } from ".."
 import { useSelector, useDispatch } from 'react-redux'
-import { increment } from "../store/StoreReducer"
 import { addItems } from "../../redux/actions"
+import { useEffect } from "react";
 
 const Products = () => {
 
-    // const value = useSelector((state) => state.addToCart.value)
+    const cart = useSelector((state) => state.cart.cartData);
     const dispatch = useDispatch()
+
+    useEffect(() => {
+      console.log(cart);
+    }, [cart])
+    
 
   return (
     <div className="px-5 sm:px-10 md:px-14 lg:px-20 py-10 md:py-20 text-center">

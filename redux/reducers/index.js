@@ -2,7 +2,7 @@ import { combineReducers } from "@reduxjs/toolkit";
 import { cartReducer } from "./cartReducers";
 
 const ReducerCombiner = combineReducers({
-    cartReducer
+    cart: cartReducer
 })
 
 export const RootReducer = (state, action) => {
