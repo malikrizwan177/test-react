@@ -24,7 +24,7 @@ const Cart = () => {
   return (
     <div className="flex flex-col gap-5 px-5 sm:px-10 md:px-14 lg:px-20 py-10 md:py-20">
         {cart.map((item, index) => (
-            <div key={index} className="flex flex-row justify-between items-center w-full">
+            <div key={index} className="grid grid-cols-6 justify-between items-center w-full">
                 <img src={item.image} alt="product_image" className="max-w-[108px] rounded-lg"/>
                 <p className="text-gray-400">{item.name}</p>
                 <p className="text-gray-400">{item.discounted_price}</p>

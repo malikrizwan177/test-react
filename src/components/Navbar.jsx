@@ -16,7 +16,7 @@ const Navbar = () => {
         <NavLink to={`/`}>Home</NavLink>
         <NavLink to={`/shop`}>Shop</NavLink>
         <NavLink to={`/about`}>About</NavLink>
-        <NavLink to={`contact`}>Contact</NavLink>
+        <NavLink to={`/contact`}>Contact</NavLink>
       </div>
       <div className="flex flex-row gap-3 lg:gap-7">
         <img src={images.user} alt="user" className="w-5 h-5 cursor-pointer" />
