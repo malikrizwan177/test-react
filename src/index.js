@@ -2,6 +2,7 @@ import { images } from "./assets";
 
 export const products = [
     {
+        id: 'p1',
         name: "Sylthrine",
         type: "Stylish cafe chair",
         image: images.product_1,
@@ -11,6 +12,7 @@ export const products = [
         new: false
     },
     {
+        id: 'p2',
         name: "Leviosa",
         type: "Stylish cafe chair",
         image: images.product_2,
@@ -20,6 +22,7 @@ export const products = [
         new: false
     },
     {
+        id: 'p3',
         name: "Lolito",
         type: "Luxury Big Sofa",
         image: images.product_3,
@@ -29,6 +32,7 @@ export const products = [
         new: false
     },
     {
+        id: 'p4',
         name: "Respira",
         type: "Outdoor Bar Table and stool",
         image: images.product_4,
@@ -38,6 +42,7 @@ export const products = [
         new: true
     },
     {
+        id: 'p5',
         name: "Grifo",
         type: "Night Lamp",
         image: images.product_5,
@@ -47,6 +52,7 @@ export const products = [
         new: false
     },
     {
+        id: 'p6',
         name: "Muggo",
         type: "Small Mug",
         image: images.product_6,
@@ -56,6 +62,7 @@ export const products = [
         new: true
     },
     {
+        id: 'p7',
         name: "Pingky",
         type: "Cute bed set",
         image: images.product_7,
@@ -65,6 +72,7 @@ export const products = [
         new: false
     },
     {
+        id: 'p8',
         name: "Potty",
         type: "Minimalist flower pat",
         image: images.product_8,

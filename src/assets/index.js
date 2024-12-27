@@ -4,6 +4,7 @@ import search from './search.svg'
 import heart from './heart.svg'
 import cart from './cart.svg'
 import menu from './menu.svg'
+import delete_icon from './delete.png'
 import hero_img from './hero_img.png'
 import cat_1 from './cat-1.png'
 import cat_2 from './cat-2.png'
@@ -35,5 +36,6 @@ export const images = {
     product_5,
     product_6,
     product_7,
-    product_8
+    product_8,
+    delete_icon
 }
